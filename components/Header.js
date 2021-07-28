@@ -1,16 +1,3 @@
-// import {
-// 	BellIcon,
-// 	ChatIcon,
-// 	ChevronDownIcon,
-// 	HomeIcon,
-// 	UserGroupIcon,
-// 	ViewGridIcon,
-// } from "@heroicons/react/solid";
-// import {
-// 	FlagIcon,
-// 	PlayIcon,
-// 	ShoppingCartIcon,
-// } from "@heroicons/react/outline";
 import {
 	FlagIcon,
 	HomeIcon,
