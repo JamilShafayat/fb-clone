@@ -33,7 +33,7 @@ function Header() {
 			{/* center */}
 			<div className="flex justify-center flex-grow">
 				<div className="flex space-x-6 md:space-x-2">
-					<HeaderIcon Icon={HomeIcon} />
+					<HeaderIcon active Icon={HomeIcon} />
 					<HeaderIcon Icon={FlagIcon} />
 					<HeaderIcon Icon={PlayIcon} />
 					<HeaderIcon Icon={ShoppingCartIcon} />
@@ -42,6 +42,10 @@ function Header() {
 			</div>
 
 			{/* right */}
+			<div>
+				{/* profile pic */}
+				<p className="pr-3 font-semibold whitespace-nowrap">Jamil Shafayat</p>
+			</div>
 		</div>
 	);
 }
