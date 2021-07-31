@@ -1,10 +1,14 @@
 import {
+	BellIcon,
+	ChatIcon,
+	ChevronDownIcon,
 	FlagIcon,
 	HomeIcon,
 	PlayIcon,
 	SearchIcon,
 	ShoppingCartIcon,
 	UserGroupIcon,
+	ViewGridAddIcon,
 } from "@heroicons/react/outline";
 import Image from "next/image";
 import HeaderIcon from "./HeaderIcon";
@@ -45,6 +49,10 @@ function Header() {
 			<div className="flex items-center justify-end sm:space-x-2">
 				{/* profile pic */}
 				<p className="pr-3 font-semibold whitespace-nowrap">Jamil Shafayat</p>
+				<ViewGridAddIcon className="icon" />
+				<ChatIcon className="icon" />
+				<BellIcon className="icon" />
+				<ChevronDownIcon className="icon" />
 			</div>
 		</div>
 	);

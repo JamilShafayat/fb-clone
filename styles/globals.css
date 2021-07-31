@@ -4,6 +4,6 @@
 
 @layer components {
 	.icon {
-		@apply hidden w-10 h-10 p-2 bg-gray-200 rounded-full cursor-pointer xl:inline-flex text-gray-70 hover:bg-gray-300;
+		@apply hidden w-10 h-10 p-2 text-gray-700 bg-gray-200 rounded-full cursor-pointer xl:inline-flex hover:bg-gray-300;
 	}
 }
