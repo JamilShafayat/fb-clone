@@ -11,7 +11,7 @@ import HeaderIcon from "./HeaderIcon";
 
 function Header() {
 	return (
-		<div>
+		<div className="sticky top-0 z-50 flex items-center p-2 bg-white shadow-md lg:px-5">
 			{/* left */}
 			<div className="flex items-center">
 				<Image
@@ -23,7 +23,7 @@ function Header() {
 				<div className="flex items-center p-2 ml-2 bg-gray-100 rounded-full">
 					<SearchIcon className="h-6 text-gray-600" />
 					<input
-						className="flex items-center placeholder-gray-500 bg-transparent outline-none"
+						className="flex items-center flex-shrink placeholder-gray-500 bg-transparent outline-none"
 						type="text"
 						placeholder="Search Facebook"
 					/>
