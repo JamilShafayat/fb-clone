@@ -23,7 +23,7 @@ function Header() {
 				<div className="flex items-center p-2 ml-2 bg-gray-100 rounded-full">
 					<SearchIcon className="h-6 text-gray-600" />
 					<input
-						className="flex items-center flex-shrink placeholder-gray-500 bg-transparent outline-none"
+						className="items-center flex-shrink hidden placeholder-gray-500 bg-transparent outline-none md:inline-flex"
 						type="text"
 						placeholder="Search Facebook"
 					/>
@@ -42,7 +42,7 @@ function Header() {
 			</div>
 
 			{/* right */}
-			<div>
+			<div className="flex items-center justify-end sm:space-x-2">
 				{/* profile pic */}
 				<p className="pr-3 font-semibold whitespace-nowrap">Jamil Shafayat</p>
 			</div>
